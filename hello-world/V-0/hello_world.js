@@ -1,7 +1,8 @@
-class helloWorld extends HTMLElement {
-  connectedCallback() {
-    this.innerHTML = `<h1>Hello world</h1>`;
+class HelloWorld {
+  constructor() {}
+  init() {
+    console.log("hello world")
   }
 }
 
-export default { helloWorld }
+export default HelloWorld
